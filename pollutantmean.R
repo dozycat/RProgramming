@@ -1,5 +1,5 @@
 pollutantmean <- function(directory, pollutant, id = 1:332) {
-  
+  # this function is to cal mean of the values..
   dat <- data.frame()
   for (x in id){
     str = ""
